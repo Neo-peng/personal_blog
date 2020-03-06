@@ -26,16 +26,30 @@ nav
       border-top: 3px solid white // hover时显示上border
   .active
     color: rgb(253, 148, 10)
-
-  input
-    border: none
-    padding: 8px
-    border-radius: 8px
-  input:focus
-    outline: none // 去掉点击后的边框
-    width: 120% // 点击输入时变大
+  .search
+    padding: 0
+    margin: auto
+    input
+      border: none
+      padding: 8px
+      border-radius: 8px
+    input:focus
+      outline: none // 去掉点击后的边框
+      width: 100% // 点击输入时变大
 
 .blog-card
   background: white
   margin: 15px 0
   padding: 20px
+  position: relative
+  .blog-title
+    color: rgb(26, 144, 116)
+  .tag-icon-container
+    opacity: 0.7
+    scale: 0.8
+  .read-icon-container
+    position: absolute
+    right: 3px
+    scale: 0.8
+    opacity: 0.8
+    bottom: 3px

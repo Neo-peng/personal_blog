@@ -7,7 +7,16 @@ export default function BlogList() {
       <div className="blog-cards col-sm-12 col-md-5">
         <div className="blog-card">
           <h3 className="blog-title">This blog is a test</h3>
+          <div className="tag-icon-container">
+            <span><i className="iconfont">&#xe63c;</i> #react #bootstrap </span>
+            <span><i className="iconfont">&#xe663;</i> 2020-3-6 16:25 发表</span>
+          </div>
           <p className="blog-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur atque nobis laborum, suscipit hic soluta reiciendis ea maxime eaque tempora ducimus corrupti, nulla, recusandae sequi explicabo in. Autem, magnam voluptatem.</p>
+          <div className="read-icon-container">
+            <span><i className="iconfont">&#xe64a;</i> 100000 </span>
+            <span><i className="iconfont">&#xe60a;</i> 300 </span>
+            <span><i className="iconfont">&#xe673;</i> 300 </span>
+          </div>
         </div>
         <div className="blog-card">
           <h3 className="blog-title">This blog is a test</h3>
